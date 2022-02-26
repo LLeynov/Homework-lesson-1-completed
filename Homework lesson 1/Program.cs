@@ -12,7 +12,7 @@ namespace Homework_lesson_1
         {
             Console.Write("What's your name? ");
             string name = Console.ReadLine();
-            Console.WriteLine($"Hello, {name}! Today's date {da}");
+            Console.WriteLine($" Hello, {name}!" + " Today's current date and time " + $"{DateTime.Now}");
 
         }
     }
